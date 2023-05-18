@@ -1,0 +1,545 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,200;0,700;1,100;1,600&family=Lobster&family=Prata&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Prata', serif;
+
+}
+
+.container{
+    width: 100%;
+
+
+    background-color: white;
+}
+
+#backgroundimage{
+    background-image: url('https://www.itl.cat/pngfile/big/327-3274460_web-development.jpg');
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+}
+
+
+
+nav{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+nav .logo{
+    width: 50px;
+    margin-left: 60px;
+    margin-top: -30px;
+
+}
+#port{
+    color: white;
+    font-weight: 30px;
+}
+
+#navbar{
+    width: 100%;
+    height: 60px;
+    /* background-color: rgb(118, 147, 60); */
+    margin-top: 0;
+
+}
+
+nav ul{
+    margin-left: 600px;
+    margin-top: -30px;
+    
+    
+}
+
+nav ul li{
+    display: inline;
+    list-style: none;
+    margin: 20px 40px;
+    font-size: 15px;
+    font-weight: bolder;
+
+}
+
+nav ul li a{
+    color: white;
+    font-weight: 60rem;
+    text-decoration: none;
+
+}
+
+ .intro{
+    width: 300px;
+    height: 200px;
+    background-color: transparent;
+    margin-left: 300px;
+    margin-top: 250px;
+    text-align: center;
+    align-items: center;
+    line-height: 60px;
+} 
+
+
+.intro h1{
+    color: azure;
+    font-weight: 50px;
+}
+
+.intro h1 span{
+    color: rgb(182, 182, 76);
+}
+
+.intro h3{ 
+    color: azure;
+}
+.intro button{
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: rgb(213, 240, 159);
+}
+
+#about{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    margin: 30px;
+}
+
+.about-content{
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+.about-img img{
+    width:30% ;
+    height: 70%;
+    position: absolute;
+    top: 850px;
+    right: 150px;
+    border-radius: 5px;
+
+
+}
+
+
+.about-content h1{
+    font-size: 50px;
+    color: black;
+}
+ .about-content h1 span{
+    font-size: 50px;
+    color: rgb(155, 209, 45);
+ }
+
+ .about-content h3{
+    font-size: 30px;
+    color: gray;
+ }
+
+ .about-content p{
+    line-height: 25px;
+ }
+
+ .information{
+    line-height: 28px;
+ }
+
+ .about-content a{
+    background-color: black;
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+ }
+
+ #education h2{
+    text-align: center;
+    padding: 50px;
+    font: bold;
+ }
+
+ #education h2 span{
+    color: rgb(109, 158, 35);
+ }
+
+ .education{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 20px;
+ }
+
+ .edu-1{
+    line-height: 30px;
+ }
+
+ .edu-1 h4{
+    background-color: rgb(38, 53, 53);
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border-radius: 20px 0 20px 0;
+    color: aliceblue;
+}
+
+.edu-1 p{
+    width: 350px;
+    height: 250px;
+    background-color: rgb(139, 135, 135);
+    padding: 10px;
+    margin-top: 3px;
+    border-radius: 0 20px 0 20px;
+}
+
+   .edu-1 span{
+    color: rgb(13, 139, 61);
+   }
+
+#contact{
+    width: 100%;
+    height: 300px;
+    background-color:black;
+}
+
+ #contact-head{
+    margin-top: 70px;
+    
+ }
+
+ #contact-head h2{
+    color: aliceblue;
+    padding: 30px;
+    text-align: center;
+ }
+
+ .icon-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .icon{
+    width: 50px;
+    height: 50px;
+    border: 1px white solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 10px;
+ }
+
+ .icon i{
+    
+    font-size: 20px;
+    color: #ffffff;
+ }
+
+ .icon a{
+    text-decoration: none;
+ }
+
+.icon:hover{
+    background-color: yellowgreen;
+    color: aliceblue;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font: bold;
+
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+
+}
+
+::-webkit-scrollbar-track{
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(79, 79, 14);
+    border-radius: 10px;
+}
+
+
+@media only screen and (max-width:412px){
+    @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,200;0,700;1,100;1,600&family=Lobster&family=Prata&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Prata', serif;
+
+}
+
+.container{
+    width: 100%;
+
+
+    background-color: white;
+}
+
+#backgroundimage{
+    background-image: url('https://www.itl.cat/pngfile/big/327-3274460_web-development.jpg');
+    width: 99%;
+    height: 250px;
+    background-size: cover;
+    align-content: center;
+}
+
+
+
+nav{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+nav .logo{
+    width: 50px;
+    margin-left: 5px;
+    margin-top: -5px;
+
+}
+#port{
+    color: #ffffff;
+    margin-left: -100px;
+    font-weight: -22px;
+}
+
+#navbar{
+    width: 100%;
+    height: 60px;
+    /* background-color: rgb(118, 147, 60); */
+    margin-top: 0;
+
+}
+
+nav ul{
+    margin-left: 10px;
+    margin-top: -30px;
+    
+    
+}
+
+nav ul li{
+    display: inline;
+    list-style: none;
+    margin: 5px 10px;
+    font-size: 5px;
+    font-weight: bolder;
+
+}
+
+nav ul li a{
+    color: white;
+    font-weight: 60rem;
+    text-decoration: none;
+
+}
+
+ .intro{
+    width: 200px;
+    height: 100px;
+    background-color: transparent;
+    margin-left: 30px;
+    margin-top: 5px;
+    text-align: center;
+    align-items: center;
+    line-height: 40px;
+} 
+
+
+.intro h1{
+    color: azure;
+    font-weight: 10px;
+    font-size: small;
+}
+
+.intro h1 span{
+    color: rgb(182, 182, 76);
+    font-size: small;
+}
+
+.intro h3{ 
+    color: azure;
+}
+.intro button{
+    font-size: small;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: rgb(213, 240, 159);
+}
+
+#about{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    margin: 30px;
+}
+
+.about-img img{
+    width:70% ;
+    height: 50%;
+    position: absolute;
+    top: 280px;
+    right: 55px;
+    border-radius: 5px;
+
+
+}
+.about-content{
+    margin-top: 500px;
+    margin-right: 120px;
+}
+
+.about-content h1{
+    font-size: medium;
+    color: black;
+}
+ .about-content h1 span{
+    font-size: medium;
+    color: rgb(155, 209, 45);
+ }
+
+ .about-content h3{
+    font-size: small;
+    color: gray;
+ }
+
+ .about-content p{
+    line-height: 20px;
+ }
+
+ .information{
+    line-height: 20px;
+    font-size: small;
+ }
+
+ .about-content a{
+    background-color: black;
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-size: small;
+ }
+
+ #education h2{
+    text-align: center;
+    padding: 10px;
+    font: bold;
+    font-size: medium;
+    margin-top: 2px;
+ }
+
+ #education h2 span{
+    color: rgb(109, 158, 35);
+    font-size: medium;
+ }
+
+ #education{ margin-left: 20px;}
+
+ .education{
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 20px;
+ }
+
+ .edu-1{
+    line-height: 30px;
+ }
+
+ .edu-1 h4{
+    background-color: rgb(38, 53, 53);
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border-radius: 20px 0 20px 0;
+    color: aliceblue;
+}
+
+.edu-1 p{
+    width: 350px;
+    height: 250px;
+    background-color: rgb(139, 135, 135);
+    padding: 3px;
+    margin-top: 3px;
+    border-radius: 0 20px 0 20px;
+}
+
+#contact{
+    width: 100%;
+    height: 300px;
+    background-color:black;
+}
+
+ #contact-head{
+    margin-top: 70px;
+    
+ }
+
+ #contact-head h2{
+    color: aliceblue;
+    padding: 30px;
+    text-align: center;
+    font-size: medium;
+ }
+
+ .icon-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .icon{
+    width: 50px;
+    height: 50px;
+    border: 1px white solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 10px;
+ }
+
+ .icon i{
+    
+    font-size: 10px;
+ }
+
+ .icon a{
+    text-decoration: none;
+ }
+
+.icon:hover{
+    background-color: yellowgreen;
+    color: aliceblue;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font: bold;
+    font-size: x-small;
+
+}
+
+}
